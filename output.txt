@@ -1,0 +1,27 @@
+ Agent executing analysis for: Outokumpu S2P Project (Managed by Aftab Hashambhai)...
+
+PROJECT: Outokumpu S2P Project (Managed by Aftab Hashambhai)
+FINAL AUTOMATED RAG STATUS: AMBER
+
+PLAIN-ENGLISH REASONING:
+The master summary metadata officially lists the schedule health as Green with an overall completion rate of 71% across 255 completed tasks. However, applying Phase 1 framework Rule 3 (Qualitative Keyword Override), a deep scan of the active stakeholder comments log reveals critical functional bottlenecks that threaten near-term milestones. Multiple explicit logs track outstanding delivery dependencies, including pending client data samples and incomplete core system field mappings that are actively stalling integration work. 
+
+KEY RISKS & UNRESOLVED BLOCKERS:
+- Functional Blocker: JDE ERP field mappings remain incomplete for PO Outbound and GR Inbound processing paths.
+- External Dependency: Stalled design conclusions awaiting the client (OTK) to provide complete data samples, heavily constrained by a near-term target date of July 10.
+- Resource & Timeline Friction: High-level onsite workshop schedules have been officially impacted due to parallel phase 1 execution constraints.
+
+================================================================================
+
+ Agent executing analysis for: UniSan S2P Project (Managed by Rajat Bothra)...
+
+PROJECT: UniSan S2P Project (Managed by Rajat Bothra)
+FINAL AUTOMATED RAG STATUS: RED
+
+PLAIN-ENGLISH REASONING:
+This project meets Rule 1 (Hard Metric Domination) for a critical Red status designation. The master summary explicitly flags 'Schedule Health' as Red. Chronologically, the project has already entered advanced lifecycle modules—specifically Training Phase I—yet the metrics reveal a massive execution lag, with the project sitting at only 44% completion. A staggering 175 tasks remain in a 'Not Started' state. This extreme imbalance between elapsed timeline milestones and physical completion indicates a severe baseline variance.
+
+KEY RISKS & UNRESOLVED BLOCKERS:
+- Schedule Slippage: Project is structurally stalled at less than half complete (44%) while actively tracking late-stage end-user training activities.
+- Task Volatility: A massive inventory of 175 tasks has not yet begun, posing a severe critical path bottleneck for upcoming production go-live activities.
+- Missing Context: Unlike the Outokumpu tracker, this dataset completely lacks a stakeholder comments log, presenting an additional operational risk due to blind spots regarding the root causes of the delay.
