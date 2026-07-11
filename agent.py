@@ -20,7 +20,7 @@ import pandas as pd
 from openai import OpenAI
 
 # Initialize the AI client
-client = OpenAI(api_key="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")
+client = OpenAI("OPEN_API_KEY")
 
 def read_project_data(summary_path, details_path, comments_path=None):
     context_str = ""
